@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>gun-house</title>
+		<script
+			src="https://kit.fontawesome.com/3dfcdec7a2.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" href="css/sass.css" />
+	</head>
+
+	
+	<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+
+		<!-- NAV  -->
+
+		<nav
+			id="navbar"
+			class="navbar navbar-expand-lg position-fixed top-0 w-100 z-2 py-3"
+		>
+			<div class="container">
+				<a class="navbar-brand" href="#"
+					><i class="fa-solid fa-person-rifle"></i>gun-house</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav ms-auto">
+						<a class="nav-link active" href="#home">Home</a>
+						<a class="nav-link" href="#aboutus">o nas</a>
+						<a class="nav-link" href="#portfolio">portfolio</a>
+						<a class="nav-link" href="#prices">ceny</a>
+						<a class="nav-link" href="#team">zespół</a>
+						<a class="nav-link" href="#achievements">osiągnięcia</a>
+						<a class="nav-link" href="#contact">kontakt</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- HEADER/HOME  -->
+
+		<header id="home">
+			<div class="header-img">
+				<div class="header-bg"></div>
+				<div class="header-text">
+					<h1 data-aos="fade-up" data-aos-delay="200">witajcie w <span>gun-house </span></h1>
+					<p data-aos="fade-up" data-aos-delay="400">w miejscu gdzie broń to nasza pasja</p>
+					<a data-aos="fade-up" data-aos-delay="600" href="#aboutus" role="button" class="btn btn-outline-light"
+						>poznaj nas</a
+					>
+				</div>
+				<a href="#aboutus"><i class="fa-solid fa-chevron-down bounce-top"></i></a>
+			</div>
+		</header>
+
+		<!-- ABOUTUS -->
+
+		<main>
+			<section id="aboutus" class="aboutus bg-light py-5">
+				<div class="container">
+					<h2>o nas</h2>
+					<div class="underline"></div>
+					<div class="row">
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-gun"></i></p>
+							<p class="aboutus-card-title mb-1">karabinki</p>
+							<p class="aboutus-card-text">Tworzymy karabinki AR-15</p>
+						</div>
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-plus"></i></p>
+							<p class="aboutus-card-title mb-1">modernizacja</p>
+							<p class="aboutus-card-text">
+								Modernizujemy karabinki AR-15 i nie tylko
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-cart-shopping"></i></p>
+							<p class="aboutus-card-title mb-1">dystrybucja</p>
+							<p class="aboutus-card-text">
+								Prowadzimy sprzedaż stacjonarną i internetową
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-truck"></i></p>
+							<p class="aboutus-card-title mb-1">dowóz</p>
+							<p class="aboutus-card-text">
+								Wysyłamy paczki w kraju i za granicę
+							</p>
+						</div>
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-handshake"></i></p>
+							<p class="aboutus-card-title mb-1">Obsługa</p>
+							<p class="aboutus-card-text">Dbamy o dobre relację z klientami</p>
+						</div>
+						<div class="col-sm-6 col-md-4 text-center aboutus-hover">
+							<p><i class="fa-solid fa-people-group"></i></p>
+							<p class="aboutus-card-title mb-1">Zespół</p>
+							<p class="aboutus-card-text">
+								Jesteśmy zgranym zespołem z wieloletnim doświadczeniem
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="aboutus-hero py-5">
+				<div class="aboutus-shadow"></div>
+				<div class="container py-4">
+					<h2>cechy naszej broni</h2>
+					<div class="underline"></div>
+					<div class="row">
+						<div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="100">
+							<p><i class="fa-solid fa-burst"></i></p>
+							<p class="aboutus-hero-title mb-1">tłok gazowy</p>
+							<p class="aboutus-hero-card">
+								nasza broń wykorzystuje tłokowy system gazowy przez co jest
+								łatwiejsza w konserwacji
+							</p>
+						</div>
+						<div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="300">
+							<p><i class="fa-regular fa-square-check"></i></p>
+							<p class="aboutus-hero-title mb-1">m-lok</p>
+							<p class="aboutus-hero-card">
+								łoże w systemie m-lok daje najszerszy wybór akcesoriów do broni
+							</p>
+						</div>
+						<div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="500">
+							<p><i class="fa-solid fa-thumbs-up"></i></p>
+							<p class="aboutus-hero-title mb-1">przyjemna w obsłudze</p>
+							<p class="aboutus-hero-card">
+								karabinki z zdublowanymi i powiększonymi przełącznikami
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="portfolio py-5">
+				<div class="container">
+					<h2>portfolio</h2>
+					<div class="underline"></div>
+
+					<!-- PORTFOLIO MOBILE -->
+
+					<div class="card-group d-lg-none">
+						<div class="card">
+							<img
+								src="./img/ar-karuzela1-small.jpg"
+								class="card-img-top"
+								alt="prezentacja karabinka AR-15 wykonanego przez gun-house"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">gh-18 pro personalized</h5>
+								<p class="card-text">
+									This is a wider card with supporting text below as a natural
+									lead-in to additional content. This content is a little bit
+									longer.
+								</p>
+							</div>
+						</div>
+						<div class="card ms-sm-3">
+							<img
+								src="./img/ar-karuzela2-small.jpg"
+								class="card-img-top"
+								alt="prezentacja karabinka AR-15 wykonanego przez gun-house"
+							/>
+							<div class="card-body">
+								<h5 class="card-title">gh-18 pro</h5>
+								<p class="card-text">
+									This card has supporting text below as a natural lead-in to
+									additional content.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- PORTFOLIO DESKTOPS -->
+
+					<div
+						id="carouselExampleCaptions"
+						class="carousel slide d-none d-lg-block"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img
+									src="./img/ar-karuzela1-big.jpg"
+									class="d-block"
+									alt="prezentacja karabinka AR-15 wykonanego przez gun-house"
+								/>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>gh-18 pro personalized</h5>
+									<p>
+										Some representative placeholder content for the first slide.
+									</p>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<img
+									src="./img/ar-karuzela2-big.jpg"
+									class="d-block"
+									alt="prezentacja karabinka AR-15 wykonanego przez gun-house"
+								/>
+								<div class="carousel-caption d-none d-md-block">
+									<h5>gh-18 pro</h5>
+									<p>
+										Some representative placeholder content for the second
+										slide.
+									</p>
+								</div>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleCaptions"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<!-- PRICES -->
+
+			<section id="prices" class="prices py-5 bg-light">
+				<h2>cennik</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="price-wrap row text-center justify-content-center">
+						<div class="col-md-6 col-xl-4" data-aos="flip-left" data-aos-delay="100">
+							<div class="price-box">
+								<h3>gh-12.5 pro</h3>
+								<hr />
+								<p><span>gwint:</span> 1:8</p>
+								<p><span>długość lufy:</span> 12.5'</p>
+								<p><span>samopowtarzalna</span></p>
+								<p class="price">7500zł</p>
+								<button type="button" class="btn btn-secondary">
+									zamawiam
+								</button>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4" data-aos="flip-left" data-aos-delay="200">
+							<div class="price-box">
+								<h3>GH-14.5 pro</h3>
+								<hr />
+								<p><span>gwint</span> 1:8</p>
+								<p><span>długość lufy:</span> 14.5'</p>
+								<p><span>samopowtarzalna</span></p>
+								<p class="price">7500zł</p>
+								<button type="button" class="btn btn-primary">zamawiam</button>
+							</div>
+						</div>
+						<div class="col-md-6 col-xl-4" data-aos="flip-left" data-aos-delay="300">
+							<div class="price-box">
+								<h3>GH-18 PRO</h3>
+								<hr />
+								<p><span>gwint</span> 1:7</p>
+								<p><span>długość lufy:</span> 18'</p>
+								<p><span>samopowtarzalna</span></p>
+								<p class="price">9500zł</p>
+								<button type="button" class="btn btn-secondary">
+									zamawiam
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="text-center">
+					</p>
+					<p class="price-info">
+						Skorzystaj z naszych usług, lub
+						<a href="#contact">skontaktuj się</a> z nami i ustal warunki
+						indywidualnie
+					<p class="text-muted">
+						*Każda broń <strong>SAMOPOWTARZALNA</strong> może być sprzedana
+							również w wersji automatycznej
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- TEAM  -->
+
+			<section id="team" class="team">
+				<div class="team-hero py-5">
+					<div class="team-shadow"></div>
+				<h2>team</h2>
+				<div class="underline"></div>
+				<div class="container">
+
+					<div class="card-group team-carousel">
+						<div class="card mx-3">
+							<img src="./img/team/adult-2449725_1920.jpg" class="card-img-top" alt="zdjęcie przedstawiające Pana Prezesa">
+							<div class="card-body">
+							  <h5 class="card-title">ceo</h5>
+							  <p class="card-text">Szef szefów. Nikt nie zna jego imienia. Pracownicy mówią na niego "Pan Prezes".</p>
+							</div>
+							<div class="card-footer d-flex justify-content-evenly">
+							  <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+							  <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>     
+							  <a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>			
+							</div>
+						  </div>
+						  <div class="card mx-3">
+							<img src="./img/team/woman-1320810_1920.jpg" class="card-img-top" alt="zdjęcie przedstawiające Paule z hr">
+							<div class="card-body">
+							  <h5 class="card-title">hr</h5>
+							  <p class="card-text">Paula zajmuję się rekrutowaniem nowych osób.</p>
+							</div>
+							<div class="card-footer d-flex justify-content-evenly">
+								<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>     
+								<a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>					
+							</div>
+						  </div>
+						  <div class="card mx-3">
+							<img src="./img/team/building-2762241_1920.jpg" class="card-img-top" alt="zdjęcie przedstawiające Pana Wiesia, metalurga">
+							<div class="card-body">
+							  <h5 class="card-title">metalurg</h5>
+							  <p class="card-text">Pan Wiesio dba o jakość naszej broni.</p>
+							</div>
+							<div class="card-footer d-flex justify-content-evenly">
+								<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>     
+								<a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>				
+							</div>
+						  </div>
+						<div class="card mx-3">
+						  <img src="./img/team/entrepreneur-2326419_1920.jpg" class="card-img-top" alt="zdjęcie przedstawiające Pana Tomka">
+						  <div class="card-body">
+							<h5 class="card-title">tomek</h5>
+							<p class="card-text">To jest Tomek. Nikt oprócz Prezesa nie wie, czym zajmuję się Tomek.</p>
+						  </div>
+						  <div class="card-footer d-flex justify-content-evenly">
+							<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+							  <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>     
+							  <a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>					
+						  </div>
+						</div>
+						<div class="card mx-3">
+						  <img src="./img/team/women-1209678_1920.jpg" class="card-img-top" alt="zdjęcie przedstawiające Anie i Hanei z działu jakości">
+						  <div class="card-body">
+							<h5 class="card-title">dział jakości</h5>
+							<p class="card-text">Ania i Hania sprawdzają starannie każdy nasz produkt.</p>
+						  </div>
+						  <div class="card-footer d-flex justify-content-evenly">
+							<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+							  <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>     
+							  <a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>					
+						  </div>
+						</div>
+					</div>	
+					</div>			
+				</div>
+			</section>
+
+			<!-- ACHIEVEMENTS -->
+
+			<section id="achievements" class="achievements py-5">
+				<h2>osiągnięcia</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="row text-center justify-content-center achievements-list">
+						<div class="achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="150">
+							<div class="achievements-box">
+								<i class="fa-solid fa-heart"></i>
+								<p class="achievement-number">98%</p>  
+								<p class=achievement-text>zadowolonych klientów</p>
+							</div>												
+						</div>
+						<div class="achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="300">
+							<div class="achievements-box">
+								<i class="fa-solid fa-trophy"></i>
+								<p class="achievement-number">22</p>  
+								<p class=achievement-text>zdobytych nagród</p>
+							</div>												
+						</div>
+						<div class="achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="150">
+							<div class="achievements-box">
+								<i class="fa-solid fa-user-group"></i>
+								<p class="achievement-number">200</p> 
+								<p class=achievement-text>pracowników</p>
+							</div>												
+						</div>
+						<div class="achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="300">
+							<div class="achievements-box">
+								<i class="fa-regular fa-building"></i>
+								<p class="achievement-number ">3</p>
+								<p class=achievement-text>strzelnice</p>
+							</div>												
+						</div>
+						<div class="achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="150">
+							<div class="achievements-box">
+								<i class="fa-solid fa-gears"></i>
+								<p class="achievement-number">10 543</p>  
+								<p class=achievement-text>stworzonych karabinków</p>
+							</div>												
+						</div>
+						<div class=".achievement col-md-6 col-lg-4 col-xl-2" data-aos="zoom-in" data-aos-delay="300">
+							<div class="achievements-box">
+								<i class="fa-solid fa-hashtag"></i>
+								<p class="achievement-number">1</p> 
+								<p class=achievement-text>Największy producent broni cywilnej w Polsce</p>
+							</div>												
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<!-- contact -->
+
+			<section id="contact" class="contact py-5">
+				<h2>kontakt</h2>
+				<div class="underline"></div>
+				<div class="container">
+					<div class="row text-center contact-us">
+						<div class="col-sm-6 col-lg-4 contact-item order-1 my-3">
+							<h3>główna siedziba</h3>
+							<p>ul. Długa 12</p>
+							<p>80-000 Gdańsk</p>
+							<p>+48 111 222 333</p>
+							<p>mail@mail.com</p>
+						</div>
+						<div class="col-lg-4 order-0 order-lg-1 contact-item my-3">
+							<div class="social-media">
+								<h3>social media</h3>
+								<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f mx-3"></i></a>
+							  <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter mx-3"></i></a>     
+							  <a href="https://pl.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in mx-3"></i></a>
+							</div>
+								
+						</div>
+							<div class="col-sm-6 col-lg-4 contact-item order-1 my-3">
+								<h3>główna strzelnica</h3>
+								<p>ul. Krótka</p>
+								<p>22-460 Szczebrzeszyn</p>
+								<p>+48 333 222 111</p>
+								<p>mail@mail.com</p>
+							</div>
+					</div>
+				</div>
+				<div class="contact-shadow"></div>
+			</section>
+
+		</main>
+
+		<footer class="bg-dark text-light py-4 text-center">
+			<p class="mb-0"> &copy; 2023 | GUN-HOUSE</p>
+		</footer>
+
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/slicksettings.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
